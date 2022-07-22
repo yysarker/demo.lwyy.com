@@ -1,0 +1,25 @@
+/*
+Theme Name: Launcher
+Theme URI: http://demo.lwyy.com/
+Author: Yeahyea Sarker
+Author URI: https://demo.lwyy.com/
+Description: This Site launcher theme.
+Tags: blog.
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: launcher
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+#fh5co-logo > a {
+    font-size: 48px;
+    color: #222 !important;
+    padding-top: 30px;
+}
+#fh5co-logo {
+    margin-top: 30px;
+}

@@ -13,6 +13,10 @@ License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: alpha
 */
+a:hover {
+    text-decoration: none !important;
+}
+
 h1.heading {
     font-family: "Arial Black";
     width: 700px;
@@ -31,7 +35,11 @@ h3.tagline{
     width: 700px;
     text-align: center;
 }
-
+ul#topmenucontainer li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px;
+}
 h2.post-title {
     margin-bottom: 30px;
 }
@@ -71,4 +79,22 @@ h2.post-title {
 
 .tags li{
     color: #3D9970;
+}
+.footer p{
+    margin-bottom: 0 !important;
+}
+ul#menu-footermenu {
+    list-style: none;
+    display: block;
+    margin-bottom: 0;
+}
+ul#menu-footermenu li {
+    display: inline-block;
+    padding-left: 10px;
+}
+ul#menu-footermenu li a {
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
